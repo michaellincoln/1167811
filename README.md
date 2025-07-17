@@ -1,3 +1,2 @@
 # 1167811
-COMP647 Machine Learning and Applications
-
+COMP647 Machine Learning and Applications - test
