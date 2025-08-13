@@ -17,11 +17,11 @@ class Test:
         plt.show()
 
     def split_data(self):
-        x = self.data['A']
+        X = self.data[['A']]
         y = self.data['B']
-        X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
         return X_train, X_test, y_train, y_test
-
+    
 if __name__ == "__main__":
     test_instance = Test()
     X_train, X_test, y_train, y_test = test_instance.split_data()
