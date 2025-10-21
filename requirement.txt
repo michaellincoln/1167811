@@ -12,3 +12,6 @@ category_encoders
 imbalanced-learn
 mlxtend
 skfeature-chappers
+xgboost>=1.5.0
+shap>=0.40.0
+lime>=0.2.0
